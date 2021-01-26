@@ -24,7 +24,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_5_clicked()
 {
     auto f_report = m_reportContext.newReport(markdown::ReportSystemType::kGNSS,markdown::ReportType::kGNSSPOSITION);
-    auto outfile = QString("%1%2.md").arg(QString("D:\\dddd\\dddd\\")).arg(f_report->reportName());
+    auto outfile = QString("%1%2%3.md").arg(QDir::currentPath()).arg(QDir::separator()).arg(f_report->reportName());
     f_report->createMDFile(outfile.toStdWString());
     f_report->editTable();
     f_report->saveAndClose();

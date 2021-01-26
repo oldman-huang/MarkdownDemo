@@ -18,7 +18,7 @@ void GnssPositionAccuracyReport::editTable()
     m_table->addCell(std::pair<unsigned int,unsigned int>(2,1),std::wstring(L"测试时间"));
     m_table->addCell(std::pair<unsigned int,unsigned int>(2,2),std::wstring(L"2021-01-24 17:01:01"));
     m_table->addCell(std::pair<unsigned int,unsigned int>(2,3),std::wstring(L"设备厂商"));
-    m_table->addCell(std::pair<unsigned int,unsigned int>(2,4),std::wstring(L"XXX通信信息有限公司"));
+    m_table->addCell(std::pair<unsigned int,unsigned int>(2,4),std::wstring(L"XXXXX信息有限公司"));
     m_table->addCell(std::pair<unsigned int,unsigned int>(3,1),std::wstring(L"型号"));
     m_table->addCell(std::pair<unsigned int,unsigned int>(3,2),std::wstring(L"MD-20211"));
     m_table->addCell(std::pair<unsigned int,unsigned int>(3,3),std::wstring(L"序列号"));
