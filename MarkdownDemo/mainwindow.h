@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "classa.h"
 #include <QString>
 #include "Markdown/ReportContext.h"
 QT_BEGIN_NAMESPACE
