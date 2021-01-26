@@ -29,3 +29,8 @@ void MainWindow::on_pushButton_5_clicked()
     f_report->editTable();
     f_report->saveAndClose();
 }
+
+void MainWindow::on_Report_2_clicked()
+{
+
+}
